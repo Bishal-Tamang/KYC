@@ -1,0 +1,44 @@
+.kyc__usecase{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+        gap: 3.7rem;
+}
+.kyc__usecase h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    color: #fff;
+    font-size: 40px;
+}
+
+.kyc__usecase-grids{
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     grid-template-rows: repeat(4, 1fr);
+     gap: 10px;
+     text-align: center;
+}
+
+.kyc__usecase-grid-container h1{
+    font-size: 32px;
+    width: 65%;
+}
+
+#logo{
+    text-align: start;
+}
+
+.kyc__usecase-grid-container{
+    margin: 2rem;
+    background-color: #010813;
+    padding: 1.5rem;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  .kyc__usecase-grid-container:hover{
+    background-color: var(--color-bg);
+    box-shadow: 15px 15px 22px 1px rgba(0,0,0,0.84);
+  }
+

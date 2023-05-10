@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+
+    body{
+        background: #040C18;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+       
+        .kyc__login-container{
+
+         width: 350px;
+         padding: 2rem 0rem;
+         margin: 50px 0px;
+         background-color: #fff;
+         border-radius: 10px;
+         text-align: center;
+         box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+
+         h1{
+            font-family: var(--font-family);
+            font-weight: 500;
+            color: #000;
+            font-size: 28px;
+            margin-bottom: 2rem;
+            }
+      
+        .form-field{
+            padding-left: 1.5rem;
+            padding-right: 1rem;
+
+            Form{
+                               
+
+                .btn{
+                    width: 80%;
+                    display: flex;
+                    justify-content: center;
+                
+                }
+                Button{
+                    background-color: #1890ff;
+                    color: #fff;
+                   
+                    }
+            }
+            p{
+                font-family: var(--font-family);
+                font-size: 16px;
+                margin-top: 1rem;
+
+                a{
+                    color: blue;
+                }
+            }
+        }
+    }
+}
+
+}

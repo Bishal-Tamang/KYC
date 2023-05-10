@@ -1,0 +1,32 @@
+.kyc__form-container{
+    text-align: center;
+
+    .kyc__form-container-heading{
+        padding: 2rem;
+        background-color: #040C18;
+        border: 2px solid white;
+        border-radius: 10px;
+        h1{
+            color: #fff;
+            font-family: var(--font-family);
+            font-size: 32px;
+            font-weight: 600;
+
+        }
+    }
+
+    .form-field form{
+        padding: 2rem 4rem;
+
+            #btn{
+                color: black;
+                font-style: var(--font-family);
+                font-size: 16px;
+            }
+
+            #btn:hover{
+                color: #fff;
+            }
+    }
+       
+}

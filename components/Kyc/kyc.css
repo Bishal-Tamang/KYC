@@ -1,0 +1,40 @@
+.kyc__kyc{
+    background-image: url('../assets/kycbanner-main-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 4rem 6rem;
+}
+
+.kyc__kyc-content{
+    width: 50%;
+    margin-top: 6rem;
+}
+
+.kyc__kyc-content h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    color: #fff;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    width: 60%;
+}
+
+.kyc__kyc-content h4{
+    font-family: var(--font-family);
+    color: #fff;
+    line-height: 30px;
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.kyc__kyc-content p{
+    font-family: var(--font-family);
+    color: #fff;
+    line-height: 27px;
+    font-size: 20px;
+    margin-top: 1.5rem;
+}
