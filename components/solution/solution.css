@@ -1,5 +1,6 @@
 .kyc__solution{
     display: flex;
+    align-items: flex-start;
 }
 
 .kyc__solution-container{
@@ -10,6 +11,11 @@
     margin: 20px;
     max-width: 30%;
     text-align: center;
+    background-color: #010813;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 2rem;
     color: #fff;
 }
 .kyc__solution-container h1{
@@ -18,10 +24,64 @@
     font-family: var(--font-family);
     font-weight: 800;
     width: 70%;
+    font-size: 18px;
 }
 
 .kyc__solution-container p{
     width: 75%;
     font-family: var(--font-family);
+    font-size: 15px;
     
+}
+
+@media screen and (max-width: 1050px){
+
+    .kyc__solution{
+        padding: 2rem 4rem;
+    }
+
+    .kyc__solution-container{
+        margin: 10px;
+        max-width: 33%;
+        padding: 2rem 1rem;
+    }
+
+    .icon{
+        width: 30px;
+        height: 30px;
+    }
+
+    .kyc__solution-container p{
+        width: auto;
+        font-size: 15px;
+    }
+
+    .kyc__solution-container h1{
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .kyc__solution{
+        padding: 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .kyc__solution-container{
+        max-width: 100%;
+    }
+
+    .kyc__solution-container h1{
+        min-height: 40px;
+        font-size: 14px;
+        width: auto;
+        margin: 1rem;
+        min-height: auto;
+    }
+
+    .kyc__solution-container p{
+        font-size: 12px;
+        
+    }
 }

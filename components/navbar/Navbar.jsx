@@ -45,8 +45,8 @@ const Navbar = () => {
                     <p><a href="#usecases">UseCases</a></p>
                     </div>
                     <div className="kyc__navbar-menu-container-links-sign">
-                        <p>Sign in</p>
-                        <Link href=""><button type='button'>Sign up</button></Link>
+                        <Link href="./Login"><p>Sign in</p></Link>
+                        <Link href="./SignUp"><button type='button'>Sign up</button></Link>
                     </div>
                 </div>  
             )}

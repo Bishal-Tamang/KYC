@@ -77,11 +77,11 @@ const login = () => {
              
           
               <div className="btn">
-                <Form.Item>
+              
                   <Button type="primary" htmlType="submit">
                    Login
                   </Button>
-                </Form.Item>
+                
               </div>
 
               <p>Not a member? <a href='./SignUp'>Register Now</a></p>

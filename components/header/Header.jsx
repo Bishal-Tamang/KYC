@@ -11,8 +11,8 @@ const Header = () =>{
             <p>Worldwide electronic customer identification and verification. The easier way to sign up more customers, improve their experience and minimize risk.</p>
             
             <div className="kyc__header-content-input">
-                <input type="email" placeholder='Your Email Address' />
-                <Link href="./Login"><button type='button'>Get Started</button></Link>
+               
+                <Link href="./KYCForm"><button type='button'>Get Started</button></Link>
             </div>
            
         </div>

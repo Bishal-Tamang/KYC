@@ -38,3 +38,91 @@
     font-size: 20px;
     margin-top: 1.5rem;
 }
+
+@media screen and (max-width: 1050px){
+    .kyc__kyc{
+        background-size: cover;
+        border-radius: 10px;
+        margin: 2rem 4rem;
+        padding: 2rem 4rem;
+    }
+
+    .kyc__kyc-content{
+        margin-top: 0;
+    }
+
+    .kyc__kyc-content h1{
+        font-size: 48px;
+        line-height: 50px;
+        width: 75%;
+    }
+
+    .kyc__kyc-content h4{
+        font-size: 20px;
+        margin: 2rem 0;
+    }
+
+    .kyc__kyc-content p{
+        font-size: 16px;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .kyc__kyc-content h1{
+        font-size: 32px;
+        line-height: normal;
+    }
+
+    .kyc__kyc-content h4{
+        font-size: 16px;
+        margin: 1rem 0;
+        line-height: normal;
+    }
+
+    .kyc__kyc-content p{
+        font-size: 12px;
+        line-height: normal;
+    }
+}
+
+@media screen and (max-width: 745px){
+    .kyc__kyc{
+        padding: 2rem 4rem;
+    }
+
+    .kyc__kyc-content h1{
+        font-size: 28px;
+        
+    }
+
+    .kyc__kyc-content h4{
+        font-size: 16px;
+        
+    }
+
+    .kyc__kyc-content p{
+        font-size: 12px;
+        line-height: normal;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .kyc__kyc{
+        padding: 0.5rem;
+    }
+
+    .kyc__kyc-content h1{
+        font-size: 20px;
+        width: auto;
+        }
+
+    .kyc__kyc-content h4{
+        font-size: 14px;
+        margin: 1rem 0rem;
+    }
+
+    .kyc__kyc-content p{
+        font-size: 10px;
+    }
+}

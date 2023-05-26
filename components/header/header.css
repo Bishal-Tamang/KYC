@@ -34,29 +34,16 @@
     display: flex;
 
 }
-.kyc__header-content-input input{
-    background: var(--color-footer);
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    font-size: 20px;
-    line-height: 27px;
-    color: #fff;
-    flex:2;
-    width: 100%;
-    min-height: 50px;
-    font-family: var(--font-family);
-    border: 2px solid var(--color-footer);
-    padding: 0 1rem;
-    outline: none;
-}
+
 
 .kyc__header-content-input button{
     flex: 0.6;
     width: 100%;
     min-height: 50px; 
     background: #FF4820;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-radius: 5px;
+    /* border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; */
     font-family: var(--font-family);
     font-weight: bold;
     font-size: 20px;
